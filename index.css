@@ -1,0 +1,373 @@
+:root {
+    /* colors */
+    --light: #f8f9fa;
+    --light-2: #909090;
+    --light-3: #ebebeb;
+    --white: #ffffff;
+    --dark: #0b0e10;
+    --gold: rgb(203, 142, 36);
+    --grey: #424242;
+    /* breakpoints */
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+  
+    /* fonts */
+    --font-family-sans-serif: "Fira Sans", sans-serif;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: var(--dark);
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+}
+
+/******************** NAVBAR CSS ********************/
+
+#navbar{
+  background: rgba(0, 0, 0, 0.8);
+  border: 1.5px solid rgba(234, 240, 252, 0.15);
+  border-radius: 40px 20px;
+  margin: 0px 4%;
+  top: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 8px 30px 8px 10px;
+  position: fixed;
+  top: 10px;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+.navbar-toggler{
+  border: none;
+}
+#varunah-logo-holder-nav{
+  width: 120px;
+}
+
+#varunah-logo-holder-nav img{
+  width: 100%;
+}
+
+#navbarSupportedContent{
+  justify-content: end;
+}
+
+#navbarSupportedContent ul{
+  gap: 20px;
+  text-align: center;
+}
+
+#navbarSupportedContent ul li a:hover{
+  color: var(--gold);
+}
+
+/* register-button-navbar */
+#register-button-nav{
+  background-color: var(--gold);
+  border-radius: 2px;
+}
+#register-button-nav a{
+  color: var(--light);
+  text-align: center;
+}
+#register-button-nav a:hover{
+  color: var(--light) !important;
+}
+
+/******************** LANDING PAGE CSS ********************/
+#landingpage{
+  user-select: none;
+  -webkit-user-select: none;
+  padding: 8rem 2rem 3rem 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+  ,url(assets/imgs/background-3.jpeg) no-repeat center center fixed;
+  height: 100dvh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.landingpage-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.landingpage-logo img{
+  width: 55%;
+  
+}
+
+.center-buttons{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+#primary-btn, #secondary-btn{
+  border-style: none;
+  color: var(--dark);
+  background-color: var(--gold);
+  width: 15%;
+  padding: 0.7rem 0.95rem;
+  border-radius: 100px;
+  margin: 10px;
+  font-weight: 600;
+}
+
+#primary-btn:hover{
+  box-shadow: 1px 1px 10px var(--gold);
+
+}
+
+#secondary-btn{
+  color: var(--gold);
+  background-color: transparent;
+  border: 1px solid var(--gold);
+
+}
+
+#secondary-btn:hover{
+  box-shadow: 1px 1px 8px var(--gold);
+}
+
+/******************** AV SECTION CSS ********************/
+#AV-section{
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  aspect-ratio: 6/4;
+  padding: 2rem;
+  min-width: 300px;
+}
+#AV-section iframe{
+  margin-top: 10%;
+  border-radius: 10px;
+  border: 2px solid var(--gold);
+}
+.sub-heading{
+  text-align: center;
+  color: var(--gold);
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  margin-top: 10%;
+}
+.sub-heading::before{
+  content: 'Watch';
+  position: absolute;
+  bottom: -8rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.2;
+  font-size: 300%;
+  color: var(--grey);
+}
+.av-description{
+  color: var(--light-2);
+  margin-top: 2rem;
+}
+
+
+/* departments */
+.departments{
+  padding: 4rem 2rem 2rem 2rem;
+}
+.departments .grid-base{
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(280px, 1fr) );
+}
+.dept-card-base{
+  border: 1px solid var(--light-3);
+  border-radius: 10px;
+  box-shadow: 0 0 3px var(--light-3);
+  padding: 1rem;
+  transition: all 0.3s ease;
+}
+.dept-card-base:hover{
+  box-shadow: 1px 1px 15px var(--gold);
+  transform: scale(1.02);
+}
+.dept-card-base .part1{
+  color: var(--gold);
+  font-size: 1rem;
+  align-items: center;
+  gap: 1rem;
+}
+.dept-card-base .part1 h2{
+  font-size: 1.5rem;
+  color: var(--light-2);
+}
+
+.dept-card-base .part2{
+  color: var(--light-2);
+  padding-left: 60px;
+}
+.dept-card-base .dept-icon{
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  color: var(--gold);
+  padding: 0.7rem;
+  box-shadow: 0 0 5px var(--gold);
+}
+
+.sec-title{
+  text-align: center;
+  color: var(--gold);
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  margin-top: 10%;
+}
+.sec-title::before{
+  content: 'Departments';
+  position: absolute;
+  bottom: -8rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.2;
+  font-size: 300%;
+  color: var(--grey);
+}
+
+/* Footer */
+footer{
+  margin-top: 10%;
+  color: var(--light-2) !important;
+}
+footer a{
+  text-decoration: none;
+  color: var(--light-2);
+}
+.contacts{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.8rem;
+  text-align: start;
+}
+.contacts a:hover{
+  color: var(--gold) !important;
+}
+#footer-brand{
+  display: flex;
+  align-items: end;
+}
+#footer-brand img{
+  width: 20%;
+}
+.cpyright{
+  text-decoration: none;
+  color: var(--light-2);
+}
+.soc-credits{
+  font-size: 10px;
+  margin-top: 20px;
+}
+.soc-credits a{
+  color: var(--gold);
+  text-decoration: none;
+}
+
+
+/* Loader */
+
+
+
+
+
+/******************** Mobile Devices ********************/
+@media (max-width: 578px){
+  body{
+    width: 100vw;
+  }
+  #landingpage{
+    padding: 8rem 1rem 3rem 1rem;
+  }
+  .landingpage-logo img{
+    width: 100%;
+  }
+  #primary-btn, #secondary-btn{
+    width: 60%;
+    padding: 0.7rem 0.95rem;
+    margin: 10px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .center-buttons{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    margin-top: 100px;
+  }
+  #navbarSupportedContent ul{
+    gap: 3px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #register-button-nav{
+    width: 100%;
+    margin-top: 10px;
+  }
+  .landingpage-contents{
+    margin: auto;
+  }
+  
+  /* AV Section */
+  #AV-section{
+    padding: 1rem;
+  }
+  #AV-section iframe{
+    border: 1px solid var(--gold);
+  }
+
+  /* Departments */
+  .departments{
+    padding: 1.5rem;
+  }
+  .sec-title::before{
+    bottom: -5rem;
+    font-size: 200%;
+  
+  }
+
+  /* Footer */
+  #footer-brand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
