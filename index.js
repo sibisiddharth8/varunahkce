@@ -4,37 +4,49 @@
         {   
             icon: 'AD', 
             title: 'AI & DS', 
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quibusdam ipsam rem asperiores modi neque laborum.' 
+            igid:'https://www.instagram.com/adept_kce?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+            lnid:'www.linkedin.com/company/adeptkce',
+            description: 'Elevating expertise in AI & Data Science through collaboration & innovation. Exclusive events, clubs, and resources for students to excel in ethical practices and career paths' 
         },
 
         {   
             icon: 'CS', 
             title: 'CSE', 
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quibusdam ipsam rem asperiores modi neque laborum.' 
+            igid:'https://www.instagram.com/computech_kce?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+            lnid:'https://www.linkedin.com/groups/14383475',
+            description: 'Uniting tech enthusiasts to innovate and excel! From coding challenges to hackathons, we foster skill enhancement and meaningful connections within the dynamic realm of computer science.' 
         },
 
         {   
             icon: 'EC',
             title: 'ECE', 
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quibusdam ipsam rem asperiores modi neque laborum.' 
+            igid:'https://www.instagram.com/groundbreakers_kce?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+            lnid:'https://www.linkedin.com/groups/14392303/',
+            description: 'Empowering students through industry-aligned activities. Join our workshops, projects, and interactions to prepare for future challenges and foster professional growth.' 
         },
 
         {   
             icon: 'EE',
             title: 'EEE', 
+            igid:'https://www.instagram.com/faradayz_kce?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+            lnid:'',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quibusdam ipsam rem asperiores modi neque laborum.' 
         },
 
         {   
             icon: 'ME',
             title: 'Mech', 
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quibusdam ipsam rem asperiores modi neque laborum.' 
+            igid:'https://www.instagram.com/mexoltz_kce?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+            lnid:'',
+            description: "Innovation hub for Mechanical Engineering enthusiasts! Join workshops, guest lectures, and projects to explore Industry 4.0 and Robotics. Let's innovate together!"
         },
 
         {   
             icon: 'MB',
             title: 'MBA', 
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quibusdam ipsam rem asperiores modi neque laborum.' 
+            igid:'',
+            lnid:'',
+            description: "Kathir College's 2015 initiative boosts managerial skills through workshops and guest lectures, fostering growth via diverse clubs." 
         }
     ];
   
@@ -53,6 +65,14 @@
         </div>
         <div class="part2">
           <p>${dept.description}</p>
+        </div>
+        <div class="Dept-socialmedia">
+          <a href="${dept.igid}" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="${dept.lnid}" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i>
+          </a>
         </div>
       `;
   

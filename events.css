@@ -7,6 +7,7 @@
     --dark: #0b0e10;
     --gold: rgb(203, 142, 36);
     --grey: #424242;
+    --red: rgb(220, 37, 37);
     /* breakpoints */
     --breakpoint-xs: 0;
     --breakpoint-sm: 576px;
@@ -66,7 +67,7 @@ body {
     margin-top: 10%;
 }
 .sub-heading::before{
-    content: 'Technical Events';
+    content: 'Events';
     position: absolute;
     bottom: -8rem;
     top: 100%;
@@ -86,13 +87,42 @@ body {
     font-size: 80%;
 }
 
+.card-body p{
+    height: 100%;
+    overflow: auto;
+}
+
+/* Styling for the scrollbar */
+.card-body p::-webkit-scrollbar {
+    width: 4px; /* Width of the scrollbar */
+}
+
+.card-body p::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the track */
+}
+
+.card-body p::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar thumb */
+}
+
+.card-body p::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the scrollbar thumb on hover */
+}
+
 .img-holder{
     height: 150px;
+    
 }
 
 #Events img{
     height: 100%;
+    object-fit: fill;
 }  
+
+.access-depts{
+    color: var(--red);
+    font-weight: 500;
+}
 
 
 @media (max-width: 480px){
@@ -108,7 +138,6 @@ body {
         margin-top: 10%;
     }
     .sub-heading::before{
-        content: 'Technical Events';
         bottom: -6.5rem;
         top: 100%;
         left: 50%;

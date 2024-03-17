@@ -119,7 +119,6 @@ body {
 
 .landingpage-logo img{
   width: 55%;
-  
 }
 
 .center-buttons{
@@ -214,6 +213,7 @@ body {
   transition: all 0.3s ease;
   display: flex;
   flex-direction: column;
+  gap: 1remx !important;
 }
 
 .dept-card-base:hover {
@@ -234,7 +234,8 @@ body {
 
 .dept-card-base .part2 {
   color: var(--light-2);
-  padding-left: 60px;
+  padding-left: 0px;
+  height: 150px;
 }
 
 .dept-card-base .dept-icon {
@@ -252,11 +253,10 @@ body {
   color: var(--gold);
   font-family: "Poppins", sans-serif;
   position: relative;
-  margin-top: 10%;
 }
 
 .sec-title::before {
-  content: 'Departments';
+  content: 'Associations';
   position: absolute;
   bottom: -8rem;
   top: 50%;
@@ -265,6 +265,11 @@ body {
   opacity: 0.2;
   font-size: 300%;
   color: var(--grey);
+}
+
+.Dept-socialmedia{
+  display: flex;
+  justify-content: center;
 }
 
 /* Footer */
