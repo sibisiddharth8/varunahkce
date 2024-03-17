@@ -1,0 +1,145 @@
+:root {
+    /* colors */
+    --light: #f8f9fa;
+    --light-2: #909090;
+    --light-3: #ebebeb;
+    --white: #ffffff;
+    --dark: #0b0e10;
+    --gold: rgb(203, 142, 36);
+    --grey: #424242;
+    --red: rgb(220, 37, 37);
+    /* breakpoints */
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+  
+    /* fonts */
+    --font-family-sans-serif: "Fira Sans", sans-serif;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: var(--dark);
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+}
+
+#header{
+    display: flex;
+    padding: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#header h1{
+    font-size: 5rem;
+}
+
+.breadcrumb-item a{
+    color: var(--gold);
+}
+
+#coordinators .row{
+    margin-top: 0px !important;
+}
+
+.sub-heading{
+    text-align: center;
+    color: var(--gold);
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    margin-top: 10%;
+}
+
+.sub-heading{
+    text-align: center;
+    color: var(--gold);
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    margin-top: 10%;
+}
+.sub-heading::before{
+    content: 'Our Coordinators';
+    position: absolute;
+    bottom: -9rem;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.2;
+    font-size: 200%;
+    color: var(--grey);
+}
+
+#coordinators{
+    margin: auto 10px;
+}
+
+.card-body{
+    height: 120px;
+}
+
+.coordinators-contact a i{
+    color: var(--red);
+    width: 150%;
+}
+
+#coordinators .row{
+    display: flex;
+    justify-content: center;
+}
+
+.card-body{
+    padding: 0px;
+    padding-top: 10px;
+}
+
+.card-body p{
+    padding: 0px !important;
+    margin-bottom: 5px;
+}
+
+.img-holder{
+    height: 100%;
+}
+
+#Events img{
+    height: 100%;
+    object-fit: fill;
+}
+
+.coordinators-contact{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 480px){
+    #header h1{
+        font-size: 3rem;
+    }
+
+    .sub-heading::before{
+        font-size: 150%;
+        bottom: -6.5rem;
+        text-wrap: nowrap;
+    }
+}
