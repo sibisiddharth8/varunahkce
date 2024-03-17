@@ -238,6 +238,11 @@ body {
   height: 150px;
 }
 
+.part2 p{
+  margin-bottom: 0px !important;
+  text-align: center;
+}
+
 .dept-card-base .dept-icon {
   border: 1px solid var(--gold);
   border-radius: 50%;
@@ -270,6 +275,11 @@ body {
 .Dept-socialmedia{
   display: flex;
   justify-content: center;
+  margin-top: 5px;
+}
+
+.Dept-socialmedia a{
+  padding: 0px 10px;
 }
 
 /* Footer */

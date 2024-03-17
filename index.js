@@ -67,10 +67,10 @@
           <p>${dept.description}</p>
         </div>
         <div class="Dept-socialmedia">
-          <a href="${dept.igid}" class="me-4 text-reset">
+          <a href="${dept.igid}" target="_blank" class="text-reset">
             <i class="fab fa-instagram"></i>
           </a>
-          <a href="${dept.lnid}" class="me-4 text-reset">
+          <a href="${dept.lnid}" target="_blank" class="text-reset">
             <i class="fab fa-linkedin"></i>
           </a>
         </div>
