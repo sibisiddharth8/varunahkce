@@ -1,8 +1,10 @@
 //************************Events Coordinators************************
+var male="assets/imgs/male.png";
+var female="assets/imgs/female.png"
 $(document).ready(function() {
     var cardData = [
         {
-            imgSrc: "assets/imgs/Female.png",
+            imgSrc: female,
             name: "Ms. Mithila",
             year:'AP',
             department: "AI&DS",
@@ -12,7 +14,7 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/Female.png",
+            imgSrc: female,
             name: "Srimathi S",
             year:'3rd Yr',
             department: "AI&DS",
@@ -22,7 +24,7 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/Female.png",
+            imgSrc: female,
             name: "Ms.Premalatha",
             year:'AP',
             department: "AI&DS",
@@ -32,7 +34,7 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/Male.png",
+            imgSrc: female,
             name: "Arul Jothi P",
             year:'3rd Yr',
             department: "AI&DS",
@@ -42,7 +44,7 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/Male.png",
+            imgSrc: female,
             name: "Ms.Akileshwari",
             year:'AP',
             department: "AI&DS",
@@ -52,7 +54,7 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/Male.png",
+            imgSrc: male,
             name: "Deenathayalan C.K",
             year:'3rd Yr',
             department: "AI&DS",
@@ -62,7 +64,7 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/Male.png",
+            imgSrc: female,
             name: "Ms.C.Eyamini",
             year:'AP',
             department: "CSE",
@@ -72,7 +74,7 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/Male.png",
+            imgSrc: male,
             name: "Premasagar K",
             year:'3rd Yr',
             department: "CSE",
@@ -82,27 +84,27 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/Male.png",
+            imgSrc: female,
             name: "Ms.M.Kavitha",
             year:'AP',
             department: "CSE",
             coordinatortype: "Staff",
-            Eventname: "Project Expo",
+            Eventname: "Paper Presentation",
             phone: "",
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/Male.png",
+            imgSrc: male,
             name: "Rahuraam R",
             year:'3rd Yr',
             department: "CSE",
             coordinatortype: "Student",
-            Eventname: "Project Expo",
+            Eventname: "Paper Presentation",
             phone: "",
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/Male.png",
+            imgSrc: female,
             name: "Ms.V.C.Nathiya",
             year:'AP',
             department: "CSE",
@@ -112,7 +114,7 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/Male.png",
+            imgSrc: female,
             name: "Nivetha.S",
             year:'3rd Yr',
             department: "CSE",
@@ -122,7 +124,47 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/Male.png",
+            imgSrc: male,
+            name: "Mr. Boopathi Raja",
+            year:'AP',
+            department: "ECE",
+            coordinatortype: "Staff",
+            Eventname: "Paper Presentation",
+            phone: "",
+            whatsapp: ""
+        },
+        {
+            imgSrc: female,
+            name: "Paravathavardhini",
+            year:'3rd Yr',
+            department: "ECE",
+            coordinatortype: "Student",
+            Eventname: "Paper Presenation",
+            phone: "",
+            whatsapp: ""
+        },
+        {
+            imgSrc: female,
+            name: "Ms. Brindha devi",
+            year:'AP',
+            department: "ECE",
+            coordinatortype: "Staff",
+            Eventname: "Project Expo",
+            phone: "",
+            whatsapp: ""
+        },
+        {
+            imgSrc: male,
+            name: "Vijayaragavan",
+            year:'3rd Yr',
+            department: "ECE",
+            coordinatortype: "Student",
+            Eventname: "Project Expo",
+            phone: "",
+            whatsapp: ""
+        },
+        {
+            imgSrc: male,
             name: "Mr. Anand",
             year:'AP',
             department: "ECE",
@@ -132,7 +174,7 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/Male.png",
+            imgSrc: male,
             name: "Arul",
             year:'3rd Yr',
             department: "ECE",
@@ -142,7 +184,7 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/Male.png",
+            imgSrc: female,
             name: "Ms. Sanjula",
             year:'AP',
             department: "ECE",
@@ -152,7 +194,7 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/Male.png",
+            imgSrc: female,
             name: "Priyanka",
             year:'3rd Yr',
             department: "ECE",
@@ -162,7 +204,47 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/Male.png",
+            imgSrc: female,
+            name: "Dr. V. Gomathy",
+            year:'AP',
+            department: "EEE",
+            coordinatortype: "Staff",
+            Eventname: "paper presentation",
+            phone: "",
+            whatsapp: ""
+        },
+        {
+            imgSrc: male,
+            name: "Kavin",
+            year:'2nd Yr',
+            department: "EEE",
+            coordinatortype: "Student",
+            Eventname: "paper presentation ",
+            phone: "",
+            whatsapp: ""
+        },
+        {
+            imgSrc: male,
+            name: "Dr. L. Nagarajan",
+            year:'AP',
+            department: "EEE",
+            coordinatortype: "Staff",
+            Eventname: "Project Expo",
+            phone: "",
+            whatsapp: ""
+        },
+        {
+            imgSrc: male,
+            name: "Somasundaram",
+            year:'2nd Yr',
+            department: "EEE",
+            coordinatortype: "Student",
+            Eventname: "Project Expo",
+            phone: "",
+            whatsapp: ""
+        },
+        {
+            imgSrc: male,
             name: "Mr.Ramesh.D",
             year:'AP',
             department: "EEE",
@@ -172,7 +254,7 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/Male.png",
+            imgSrc: male,
             name: "Naresh Kumar",
             year:'2nd Yr',
             department: "EEE",
@@ -182,7 +264,27 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/Male.png",
+            imgSrc: male,
+            name: "Dr. B. Suresh Babu",
+            year:'AP',
+            department: "Mech",
+            coordinatortype: "Staff",
+            Eventname: "Paper Presentation",
+            phone: "",
+            whatsapp: ""
+        },
+        {
+            imgSrc: male,
+            name: "Haribharathi V",
+            year:'3rd Yr',
+            department: "Mech",
+            coordinatortype: "Student",
+            Eventname: "Paper Presentation",
+            phone: "",
+            whatsapp: ""
+        },
+        {
+            imgSrc: male,
             name: "Mr. S. Navaneethan",
             year:'AP',
             department: "Mech",
@@ -192,7 +294,7 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/Male.png",
+            imgSrc: male,
             name: "Ashok V",
             year:'3rd Yr',
             department: "Mech",
@@ -202,7 +304,7 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/Male.png",
+            imgSrc: male,
             name: "Mr. B. Vignesh",
             year:'AP',
             department: "Mech",
@@ -212,7 +314,7 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/Male.png",
+            imgSrc: male,
             name: "Godwin Prabhu P",
             year:'3rd Yr',
             department: "Mech",
@@ -222,7 +324,27 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/Male.png",
+            imgSrc: male,
+            name: "Mr. David Baburaj",
+            year:'AP',
+            department: "MBA",
+            coordinatortype: "Staff",
+            Eventname: "Paper Presentation",
+            phone: "",
+            whatsapp: ""
+        },
+        {
+            imgSrc: male,
+            name: "Muthurman",
+            year:'3rd Yr',
+            department: "MBA",
+            coordinatortype: "Student",
+            Eventname: "Paper Presentation",
+            phone: "",
+            whatsapp: ""
+        },
+        {
+            imgSrc: male,
             name: "Dr. S V Arun",
             year:'AP',
             department: "MBA",
@@ -232,7 +354,7 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/Male.png",
+            imgSrc: female,
             name: "Abirami",
             year:'3rd Yr',
             department: "MBA",
@@ -242,7 +364,7 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/Male.png",
+            imgSrc: female,
             name: "Ms. Girivasuki K",
             year:'AP',
             department: "MBA",
@@ -252,7 +374,7 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/Male.png",
+            imgSrc: female,
             name: "Pradeepa",
             year:'3rd Yr',
             department: "MBA",
@@ -263,7 +385,7 @@ $(document).ready(function() {
         },
         
         {
-            imgSrc: "assets/imgs/Male.png",
+            imgSrc: male,
             name: "Mr. Sibi Siddharth",
             year:'3rd Yr',
             department: "AI&DS",
@@ -273,7 +395,7 @@ $(document).ready(function() {
             whatsapp: "+91"
         },
         {
-            imgSrc: "assets/imgs/Male.png",
+            imgSrc: male,
             name: "Mr. Praveenkumar",
             year:'3rd Yr',
             department: "AI&DS",
