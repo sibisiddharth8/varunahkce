@@ -138,8 +138,8 @@ $(document).ready(function() {
             department: "All Departments",
             EventType: "Non-Technical",
             imgSrc: "assets/imgs/mrandmrsvarunah.webp",
-            title: "Mr. & Mrs. Varunah",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem deleniti aut perspiciatis, qui omnis nemo."
+            title: "Mr. & Ms. Varunah",
+            description: "Witness the search for excellence in our marquee event: Mr. & Ms. Varunah. Celebrating holistic development, contestants showcase intellect, charm, and leadership. Join us as we crown ambassadors of intellect and grace."
         },
 
         {
@@ -194,8 +194,8 @@ $(document).ready(function() {
             department: "All Departments",
             EventType: "Non-Technical",
             imgSrc: "assets/imgs/placeholder.png",
-            title: "Comicon",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem deleniti aut perspiciatis, qui omnis nemo."
+            title: "Comic Con",
+            description: "Gear up for our college's first-ever Cosplay Extravaganza! Experience a world of fantasy and creativity with iconic characters and stunning costumes. Join us for a day of fun, camaraderie, and cosplay madness. Save the date for an unforgettable adventure!"
         },
 
         {
