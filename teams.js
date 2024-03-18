@@ -2,9 +2,9 @@
 $(document).ready(function() {
     var cardData = [
         {
-            imgSrc: "assets/imgs/placeholder.png",
-            name: "Ms. Mithila / AP",
-            year:'',
+            imgSrc: "assets/imgs/Female.png",
+            name: "Ms. Mithila",
+            year:'AP',
             department: "AI&DS",
             coordinatortype: "Staff",
             Eventname: "Paper Presentation",
@@ -12,9 +12,9 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/placeholder.png",
+            imgSrc: "assets/imgs/Female.png",
             name: "Srimathi S",
-            year:'3rd Year',
+            year:'3rd Yr',
             department: "AI&DS",
             coordinatortype: "Student",
             Eventname: "Paper Presentation",
@@ -22,9 +22,9 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/placeholder.png",
-            name: "Ms.Premalatha / AP",
-            year:'',
+            imgSrc: "assets/imgs/Female.png",
+            name: "Ms.Premalatha",
+            year:'AP',
             department: "AI&DS",
             coordinatortype: "Staff",
             Eventname: "Algo Bridge",
@@ -32,9 +32,9 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/placeholder.png",
+            imgSrc: "assets/imgs/Male.png",
             name: "Arul Jothi P",
-            year:'3rd Year',
+            year:'3rd Yr',
             department: "AI&DS",
             coordinatortype: "Student",
             Eventname: "Algo Bridge",
@@ -42,9 +42,9 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/placeholder.png",
-            name: "Ms.Akileshwari / AP",
-            year:'',
+            imgSrc: "assets/imgs/Male.png",
+            name: "Ms.Akileshwari",
+            year:'AP',
             department: "AI&DS",
             coordinatortype: "Staff",
             Eventname: "Bot Champ",
@@ -52,9 +52,9 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/placeholder.png",
+            imgSrc: "assets/imgs/Male.png",
             name: "Deenathayalan C.K",
-            year:'3rd Year',
+            year:'3rd Yr',
             department: "AI&DS",
             coordinatortype: "Student",
             Eventname: "Bot Champ",
@@ -62,9 +62,9 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/placeholder.png",
-            name: "Ms.C.Eyamini / AP",
-            year:'',
+            imgSrc: "assets/imgs/Male.png",
+            name: "Ms.C.Eyamini",
+            year:'AP',
             department: "CSE",
             coordinatortype: "Staff",
             Eventname: "CICADA",
@@ -72,9 +72,9 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/placeholder.png",
+            imgSrc: "assets/imgs/Male.png",
             name: "Premasagar K",
-            year:'3rd Year',
+            year:'3rd Yr',
             department: "CSE",
             coordinatortype: "Student",
             Eventname: "CICADA",
@@ -82,9 +82,9 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/placeholder.png",
-            name: "Ms.M.Kavitha / AP",
-            year:'',
+            imgSrc: "assets/imgs/Male.png",
+            name: "Ms.M.Kavitha",
+            year:'AP',
             department: "CSE",
             coordinatortype: "Staff",
             Eventname: "Project Expo",
@@ -92,9 +92,9 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/placeholder.png",
+            imgSrc: "assets/imgs/Male.png",
             name: "Rahuraam R",
-            year:'3rd Year',
+            year:'3rd Yr',
             department: "CSE",
             coordinatortype: "Student",
             Eventname: "Project Expo",
@@ -102,9 +102,9 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/placeholder.png",
-            name: "Ms.V.C.Nathiya / AP",
-            year:'',
+            imgSrc: "assets/imgs/Male.png",
+            name: "Ms.V.C.Nathiya",
+            year:'AP',
             department: "CSE",
             coordinatortype: "Staff",
             Eventname: "Can you guess?",
@@ -112,9 +112,9 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/placeholder.png",
+            imgSrc: "assets/imgs/Male.png",
             name: "Nivetha.S",
-            year:'3rd Year',
+            year:'3rd Yr',
             department: "CSE",
             coordinatortype: "Student",
             Eventname: "Can you guess?",
@@ -122,9 +122,9 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/placeholder.png",
-            name: "Mr. Anand / AP",
-            year:'',
+            imgSrc: "assets/imgs/Male.png",
+            name: "Mr. Anand",
+            year:'AP',
             department: "ECE",
             coordinatortype: "Staff",
             Eventname: "Circuit Debugging",
@@ -132,9 +132,9 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/placeholder.png",
+            imgSrc: "assets/imgs/Male.png",
             name: "Arul",
-            year:'3rd Year',
+            year:'3rd Yr',
             department: "ECE",
             coordinatortype: "Student",
             Eventname: "Circuit Debugging",
@@ -142,9 +142,9 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/placeholder.png",
-            name: "Ms. Sanjula / AP",
-            year:'',
+            imgSrc: "assets/imgs/Male.png",
+            name: "Ms. Sanjula",
+            year:'AP',
             department: "ECE",
             coordinatortype: "Staff",
             Eventname: "Technical Quiz",
@@ -152,9 +152,9 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/placeholder.png",
+            imgSrc: "assets/imgs/Male.png",
             name: "Priyanka",
-            year:'3rd Year',
+            year:'3rd Yr',
             department: "ECE",
             coordinatortype: "Student",
             Eventname: "Technical Quiz",
@@ -162,9 +162,9 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/placeholder.png",
-            name: "Mr.Ramesh.D / AP",
-            year:'',
+            imgSrc: "assets/imgs/Male.png",
+            name: "Mr.Ramesh.D",
+            year:'AP',
             department: "EEE",
             coordinatortype: "Staff",
             Eventname: "Electrical Fitting",
@@ -172,9 +172,9 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/placeholder.png",
+            imgSrc: "assets/imgs/Male.png",
             name: "Naresh Kumar",
-            year:'2nd Year',
+            year:'2nd Yr',
             department: "EEE",
             coordinatortype: "Student",
             Eventname: "Electrical Fitting",
@@ -182,9 +182,9 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/placeholder.png",
-            name: "Mr. S. Navaneethan / AP",
-            year:'',
+            imgSrc: "assets/imgs/Male.png",
+            name: "Mr. S. Navaneethan",
+            year:'AP',
             department: "Mech",
             coordinatortype: "Staff",
             Eventname: "Mr. Mechanic",
@@ -192,9 +192,9 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/placeholder.png",
+            imgSrc: "assets/imgs/Male.png",
             name: "Ashok V",
-            year:'3rd Year',
+            year:'3rd Yr',
             department: "Mech",
             coordinatortype: "Student",
             Eventname: "Mr. Mechanic",
@@ -202,9 +202,9 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/placeholder.png",
-            name: "Mr. B. Vignesh / AP",
-            year:'',
+            imgSrc: "assets/imgs/Male.png",
+            name: "Mr. B. Vignesh",
+            year:'AP',
             department: "Mech",
             coordinatortype: "Staff",
             Eventname: "CAD Modelling",
@@ -212,9 +212,9 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/placeholder.png",
+            imgSrc: "assets/imgs/Male.png",
             name: "Godwin Prabhu P",
-            year:'3rd Year',
+            year:'3rd Yr',
             department: "Mech",
             coordinatortype: "Student",
             Eventname: "CAD Modelling",
@@ -222,9 +222,9 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/placeholder.png",
-            name: "Dr. S V Arun / AP",
-            year:'',
+            imgSrc: "assets/imgs/Male.png",
+            name: "Dr. S V Arun",
+            year:'AP',
             department: "MBA",
             coordinatortype: "Staff",
             Eventname: "Business Samurai",
@@ -232,9 +232,9 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/placeholder.png",
+            imgSrc: "assets/imgs/Male.png",
             name: "Abirami",
-            year:'',
+            year:'3rd Yr',
             department: "MBA",
             coordinatortype: "Student",
             Eventname: "Business Samurai",
@@ -242,9 +242,9 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/placeholder.png",
-            name: "Ms. Girivasuki K / AP",
-            year:'',
+            imgSrc: "assets/imgs/Male.png",
+            name: "Ms. Girivasuki K",
+            year:'AP',
             department: "MBA",
             coordinatortype: "Staff",
             Eventname: "Battle of innovation",
@@ -252,14 +252,35 @@ $(document).ready(function() {
             whatsapp: ""
         },
         {
-            imgSrc: "assets/imgs/placeholder.png",
+            imgSrc: "assets/imgs/Male.png",
             name: "Pradeepa",
-            year:'',
+            year:'3rd Yr',
             department: "MBA",
             coordinatortype: "Student",
             Eventname: "Battle of innovation",
             phone: "",
             whatsapp: ""
+        },
+        
+        {
+            imgSrc: "assets/imgs/Male.png",
+            name: "Mr. Sibi Siddharth",
+            year:'3rd Yr',
+            department: "AI&DS",
+            coordinatortype: "Student",
+            Eventname: "Web Developer",
+            phone: "",
+            whatsapp: "+91"
+        },
+        {
+            imgSrc: "assets/imgs/Male.png",
+            name: "Mr. Praveenkumar",
+            year:'3rd Yr',
+            department: "AI&DS",
+            coordinatortype: "Student",
+            Eventname: "Web Developer",
+            phone: "",
+            whatsapp: "+91"
         },
     ];    
 
@@ -269,26 +290,22 @@ $(document).ready(function() {
         cardData.forEach(function(coordinators) {
             //HTML content
             htmlContent += `
-                <div id="coordinators-card" class="col-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="card text-center mb-4">
-                        <div class="img-holder">
-                            <img class="card-img-top inset" src="${coordinators.imgSrc}">
-                        </div>
-                        <div class="card-body">
-                            <h6 class="small text-primary font-weight-bold">${coordinators.name}</h6>
-                            <p>${coordinators.year} ${coordinators.department}</p>
-                            <p>${coordinators.coordinatortype}-Coordinator of ${coordinators.Eventname}</p>
-                        </div>
-                        <div class="coordinators-contact">
-                            <a href="tel:+91 ${coordinators.phone}" target="_blank">
-                                <i class="fas fa-phone me-3"></i>
-                            </a>
-                            <a href="https://api.whatsapp.com/send?phone=${coordinators.whatsapp}" target="_blank">
-                                <i class="fab fa-whatsapp me-3"></i>
-                            </a>
+                    <div class="profile-card">
+                    <div class="img">
+                        <img src="${coordinators.imgSrc}">
+                    </div>
+                    <div class="caption">
+                        <h6>${coordinators.name}</h6>
+                        <p>${coordinators.year} / ${coordinators.department}</p>
+                        <p>${coordinators.Eventname}</p>  
+
+                        <div class="social-links">
+                            <a href="tel:+91 ${coordinators.phone}" target="_blank"><i class="fa-solid fa-phone"></i></a>
+                            <a href="https://wa.me/${coordinators.whatsapp}" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="#"><i class="fa-solid fa-at"></i></a>
                         </div>
                     </div>
-                </div>
+                    </div> 
             `;
         });
         $('#contentContainer').html(htmlContent);
