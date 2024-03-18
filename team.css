@@ -44,6 +44,7 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+/************************ Header CSS ************************/
 #header{
     display: flex;
     padding: 3rem;
@@ -60,7 +61,7 @@ body {
     color: var(--gold);
 }
 
-#coordinators .row{
+#Team .row{
     margin-top: 0px !important;
 }
 
@@ -72,76 +73,25 @@ body {
     margin-top: 3% !important;
 }
 
-.sub-heading{
-    text-align: center;
-    color: var(--gold);
-    font-family: "Poppins", sans-serif;
-    position: relative;
-    margin-top: 10%;
-}
 .sub-heading::before{
-    content: '';
-    position: absolute;
-    bottom: -9rem;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0.2;
-    font-size: 200%;
-    color: var(--grey);
+    content: '';   /* removes watch from index.css */
 }
 
+/****************************** Team-Cards ******************************/
 #contentContainer{
     display: grid;
     row-gap: 4.5rem;
     padding: 7%;
 }
 
-#coordinators{
+#Team{
     margin: auto 10px;
 }
 
-.card-body{
-    height: 120px;
-}
-
-.coordinators-contact a i{
-    color: var(--red);
-    width: 150%;
-}
-
-#coordinators .row{
+#Team .row{
     display: flex;
     justify-content: center;
 }
-
-.card-body{
-    padding: 0px;
-    padding-top: 10px;
-}
-
-.card-body p{
-    padding: 0px !important;
-    margin-bottom: 5px;
-}
-
-.img-holder{
-    height: 100%;
-}
-
-#Events img{
-    height: 100%;
-    object-fit: fill;
-}
-
-.coordinators-contact{
-    display: flex;
-    justify-content: center;
-}
-
-
-
-/* Cards */
 
 .main{
     width: 100%;
@@ -222,7 +172,33 @@ body {
 
 
 
+                             /* Mediaquery */
+/********************* Extra-Large Devices Only *********************/
+@media (min-width: 1200px) {
 
+}
+
+/********************* Large Devices Only *********************/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********************* Medium Devices Only *********************/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********************* Small Devices Only *********************/
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/********************* Extra-small Devices Only *********************/
+@media (max-width: 575px) {
+
+}
+
+/********************* Mobile Devices Only *********************/
 @media (max-width: 480px){
     #header h1{
         font-size: 3rem;

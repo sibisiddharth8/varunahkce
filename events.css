@@ -44,6 +44,7 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+/************************ Header CSS ************************/
 #header{
     padding: 5rem;
     display: flex;
@@ -78,6 +79,7 @@ body {
     color: var(--grey);
 }
 
+/************************ Events-card CSS ************************/
 .container .row{
     justify-content: center;
 }
@@ -93,21 +95,21 @@ body {
     text-align: justify;
 }
 
-/* Styling for the scrollbar */
+/* Styling for the scrollbar of card*/
 .card-body p::-webkit-scrollbar {
-    width: 4px; /* Width of the scrollbar */
+    width: 4px; 
 }
 
 .card-body p::-webkit-scrollbar-track {
-    background: #f1f1f1; /* Color of the track */
+    background: #f1f1f1; 
 }
 
 .card-body p::-webkit-scrollbar-thumb {
-    background: #888; /* Color of the scrollbar thumb */
+    background: #888; 
 }
 
 .card-body p::-webkit-scrollbar-thumb:hover {
-    background: #555; /* Color of the scrollbar thumb on hover */
+    background: #555; 
 }
 
 .img-holder{
@@ -127,6 +129,37 @@ body {
 }
 
 
+
+
+
+
+                             /* Mediaquery */
+/********************* Extra-Large Devices Only *********************/
+@media (min-width: 1200px) {
+
+}
+
+/********************* Large Devices Only *********************/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********************* Medium Devices Only *********************/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********************* Small Devices Only *********************/
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/********************* Extra-small Devices Only *********************/
+@media (max-width: 575px) {
+
+}
+
+/********************* Mobile Devices Only *********************/
 @media (max-width: 480px){
     #header h1{
         font-size: 3rem;
