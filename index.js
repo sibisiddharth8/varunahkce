@@ -29,7 +29,7 @@
             icon: 'EE',
             title: 'EEE', 
             igid:'https://www.instagram.com/faradayz_kce?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
-            lnid:'',
+            lnid:'./404.html',
             description: 'Faradays, your gateway to excellence in Electrical and Electronic Engineering (EEE). Named after the legendary Michael Faraday, we are a passionate community dedicated to pushing the boundaries of EEE knowledge and application.' 
         },
 
@@ -37,15 +37,15 @@
             icon: 'ME',
             title: 'Mech', 
             igid:'https://www.instagram.com/mexoltz_kce?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
-            lnid:'',
+            lnid:'./404.html',
             description: "Innovation hub for Mechanical Engineering enthusiasts! Join workshops, guest lectures, and projects to explore Industry 4.0 and Robotics. Let's innovate together!"
         },
 
         {   
             icon: 'MB',
             title: 'MBA', 
-            igid:'',
-            lnid:'',
+            igid:'./404.html',
+            lnid:'./404.html',
             description: "Kathir College's 2015 initiative boosts managerial skills through workshops and guest lectures, fostering growth via diverse clubs." 
         }
     ];
