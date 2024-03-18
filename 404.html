@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Not found</title>
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    
+
+    <style>
+        :root {
+            /* colors */
+            --light: #f8f9fa;
+            --light-2: #909090;
+            --light-3: #ebebeb;
+            --white: #ffffff;
+            --dark: #0b0e10;
+            --gold: rgb(203, 142, 36);
+            --grey: #424242;
+            --red: rgb(220, 37, 37);
+            /* breakpoints */
+            --breakpoint-xs: 0;
+            --breakpoint-sm: 576px;
+            --breakpoint-md: 768px;
+            --breakpoint-lg: 992px;
+            --breakpoint-xl: 1200px;
+        
+            /* fonts */
+            --font-family-sans-serif: "Fira Sans", sans-serif;
+            --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        }
+
+        *,
+        *::before,
+        *::after {
+        box-sizing: border-box;
+        text-decoration: none !important;
+        }
+
+        html {
+            font-family: sans-serif;
+
+            -webkit-text-size-adjust: 100%;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+
+        body {
+            margin: 0;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            background-color: var(--dark);
+            text-align: left;
+            font-family: "Poppins", sans-serif;
+        }
+        .sec-base{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100dvh;
+        }
+        .err-icon{
+            color: var(--gold);
+            font-size: 500%;
+        }
+        .err-cont{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .err-cont h1{
+            color: var(--gold);
+        }
+        .err-cont .err-msg{
+            color: var(--light-2) !important;
+            margin-top: -200;
+        }
+        .err-cont .err-des{
+            color: var(--light-2);
+        }
+        .err-cont .err-link{
+            color: var(--gold);
+            text-decoration: underline !important;
+        }
+    </style>
+
+
+</head>
+<body>
+     <!-- 404 Start -->
+     <div class="sec-base col-md-12">
+         <div class="container-fluid pt-4 px-4">
+            <div class="row vh-100 bg-light rounded align-items-center justify-content-center mx-0">
+                <div class="err-cont col-md-6 text-center p-4">
+                    <i class="bi bi-exclamation-triangle display-1 err-icon"></i>
+                    <h1 class="display-1 fw-bold">404</h1>
+                    <h1 class="mb-4 err-msg">Page Not Found</h1>
+                    <p class="mb-4 err-des">We’re sorry, the page you have looked for does not exist in our website!
+                        Maybe go to our home page or try to use a search?</p>
+                    <a class="err-link btn btn-primary rounded-pill py-3 px-5" href="">Go Back To Home</a>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- 404 End -->
+</body>
+</html>

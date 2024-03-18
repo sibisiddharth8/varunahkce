@@ -30,7 +30,7 @@
             title: 'EEE', 
             igid:'https://www.instagram.com/faradayz_kce?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
             lnid:'',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quibusdam ipsam rem asperiores modi neque laborum.' 
+            description: 'Faradays, your gateway to excellence in Electrical and Electronic Engineering (EEE). Named after the legendary Michael Faraday, we are a passionate community dedicated to pushing the boundaries of EEE knowledge and application.' 
         },
 
         {   
