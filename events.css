@@ -90,6 +90,7 @@ body {
 .card-body p{
     height: 100%;
     overflow: auto;
+    text-align: justify;
 }
 
 /* Styling for the scrollbar */
@@ -122,6 +123,7 @@ body {
 .access-depts{
     color: var(--red);
     font-weight: 500;
+    margin-bottom: 0.5rem;
 }
 
 
