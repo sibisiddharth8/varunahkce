@@ -218,4 +218,8 @@ body {
     .departments-cards-grid{
         grid-template-columns: 1fr;
     }
+    .event{
+        font-size: 4rem !important;
+        text-align: center;
+    }
 }    
