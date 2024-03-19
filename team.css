@@ -62,7 +62,7 @@ body {
 }
 
 #Team .row{
-    margin-top: 0px !important;
+    margin-top: 3rem !important;
 }
 
 .sub-heading{
@@ -81,7 +81,7 @@ body {
 #contentContainer{
     display: grid;
     row-gap: 4.5rem;
-    padding: 7%;
+    padding: 15% 0 0 0;
 }
 
 #Team{
