@@ -1,23 +1,23 @@
 :root {
-    /* colors */
-    --light: #f8f9fa;
-    --light-2: #909090;
-    --light-3: #ebebeb;
-    --white: #ffffff;
-    --dark: #0b0e10;
-    --gold: rgb(203, 142, 36);
-    --grey: #424242;
-    /* breakpoints */
-    --breakpoint-xs: 0;
-    --breakpoint-sm: 576px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 992px;
-    --breakpoint-xl: 1200px;
-  
-    /* fonts */
-    --font-family-sans-serif: "Fira Sans", sans-serif;
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  }
+  /* colors */
+  --light: #f8f9fa;
+  --light-2: #909090;
+  --light-3: #ebebeb;
+  --white: #ffffff;
+  --dark: #0b0e10;
+  --gold: rgb(203, 142, 36);
+  --grey: #424242;
+  /* breakpoints */
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+
+  /* fonts */
+  --font-family-sans-serif: "Fira Sans", sans-serif;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
 
 *,
 *::before,
@@ -27,23 +27,23 @@
 }
 
 html {
-    font-family: sans-serif;
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
-    margin: 0;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    background-color: var(--dark);
-    text-align: left;
-    font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: var(--dark);
+  text-align: left;
+  font-family: "Poppins", sans-serif;
 }
 
-/******************** NAVBAR CSS ********************/
+/************************ Navbar CSS ************************/
 
 #navbar{
   background: rgba(0, 0, 0, 0.8);
@@ -97,7 +97,7 @@ body {
   color: var(--light) !important;
 }
 
-/******************** LANDING PAGE CSS ********************/
+/************************ Landing Page CSS ************************/
 #landingpage{
   user-select: none;
   -webkit-user-select: none;
@@ -155,7 +155,7 @@ body {
   box-shadow: 1px 1px 8px var(--gold);
 }
 
-/******************** AV SECTION CSS ********************/
+/************************ AV-Section CSS ************************/
 #AV-section{
   margin: auto;
   width: 50%;
@@ -193,7 +193,7 @@ body {
 }
 
 
-/* departments */
+/************************ Departments(Associations) CSS ************************/
 .departments {
   padding: 4rem 2rem 2rem 2rem;
 }
@@ -322,39 +322,44 @@ footer a{
   text-decoration: none;
 }
 
-/* Mediaquery */
-/********************* Large Devices Only *********************/
+
+
+
+
+
+                             /* Mediaquery */
+/********************* Extra-Large Devices Only *********************/
 @media (min-width:1200){
 
 }
 
-/********************* Medium Devices Only *********************/
+/********************* Large Devices Only *********************/
 @media (min-width:992px) and (max-width:1199px){
   #dept-card-container{
     grid-template-columns: 1fr 1fr;
   }
 }
 
-/********************* small Devices Only *********************/
+/********************* Medium Devices Only *********************/
 @media (min-width:768px) and (max-width:991px) {
   #dept-card-container{
     grid-template-columns: 1fr 1fr;
   }
 }
 
-/********************* Extra-small Devices Only *********************/
+/********************* Small Devices Only *********************/
 @media (max-width:767px){
   #dept-card-container{
     grid-template-columns: 1fr;
   }
 }
 
-/********************* small-mobile Devices Only *********************/
+/********************* Extra-small Devices Only *********************/
 @media (max-width: 575px){
 
 }
 
-/******************** Mobile Devices ********************/
+/********************* Mobile Devices Only *********************/
 @media (max-width: 480px){
   body{
     width: 100vw;

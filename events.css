@@ -1,0 +1,183 @@
+:root {
+    /* colors */
+    --light: #f8f9fa;
+    --light-2: #909090;
+    --light-3: #ebebeb;
+    --white: #ffffff;
+    --dark: #0b0e10;
+    --gold: rgb(203, 142, 36);
+    --grey: #424242;
+    --red: rgb(220, 37, 37);
+    /* breakpoints */
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+  
+    /* fonts */
+    --font-family-sans-serif: "Fira Sans", sans-serif;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: var(--dark);
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+}
+
+/************************ Header CSS ************************/
+#header{
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header h1{
+    font-size: 5rem;
+}
+
+.breadcrumb-item a{
+    color: var(--gold);
+}
+
+.sub-heading{
+    text-align: center;
+    color: var(--gold);
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    margin-top: 10%;
+}
+.sub-heading::before{
+    content: 'Events';
+    position: absolute;
+    bottom: -8rem;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.2;
+    font-size: 200%;
+    color: var(--grey);
+}
+
+/************************ Events-card CSS ************************/
+.container .row{
+    justify-content: center;
+}
+
+.card-body{
+    height: 12rem;
+    font-size: 80%;
+}
+
+.card-body p{
+    height: 100%;
+    overflow: auto;
+    text-align: justify;
+}
+
+/* Styling for the scrollbar of card*/
+.card-body p::-webkit-scrollbar {
+    width: 4px; 
+}
+
+.card-body p::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+.card-body p::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+.card-body p::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.img-holder{
+    height: 150px;
+    
+}
+
+#Events img{
+    height: 100%;
+    object-fit: fill;
+}  
+
+.access-depts{
+    color: var(--red);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+
+
+
+
+
+                             /* Mediaquery */
+/********************* Extra-Large Devices Only *********************/
+@media (min-width: 1200px) {
+
+}
+
+/********************* Large Devices Only *********************/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********************* Medium Devices Only *********************/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********************* Small Devices Only *********************/
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/********************* Extra-small Devices Only *********************/
+@media (max-width: 575px) {
+
+}
+
+/********************* Mobile Devices Only *********************/
+@media (max-width: 480px){
+    #header h1{
+        font-size: 3rem;
+    }
+
+    #Events{
+        padding: 20px;
+    }
+
+    .sub-heading{
+        margin-top: 10%;
+    }
+    .sub-heading::before{
+        bottom: -6.5rem;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 150%;
+        text-wrap: nowrap;
+    }
+}
