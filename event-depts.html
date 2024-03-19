@@ -280,7 +280,7 @@
             </div>
             
             <div class="bottom-section">
-                <button class="event-details-btn-1 btn" onclick="popup1('AI&DS', 'Mr.Suresh Kumar', '+919629789508', 'Hari Vignesh', '+916383432687', '.event-details-btn-1')">
+                <button type="button" class="event-details-btn-1 btn" onclick="popup1('AI&DS', 'Mr.Suresh Kumar', '+919629789508', 'Hari Vignesh', '+916383432687', '.event-details-btn-1')">
                     More Info
                 </button>
             </div>
@@ -314,7 +314,7 @@
             </div>
             
             <div class="bottom-section">
-                <button class="event-details-btn-2 btn" onclick="popup1('CSE', 'Ms.K.N.Jayapriya', '+919600233001', 'Rishikanth T', '+918438633936', '.event-details-btn-2')">
+                <button type="button" class="event-details-btn-2 btn" onclick="popup1('CSE', 'Ms.K.N.Jayapriya', '+919600233001', 'Rishikanth T', '+918438633936', '.event-details-btn-2')">
                     More Info
                 </button>
             </div>
@@ -347,7 +347,7 @@
             </div>
             
             <div class="bottom-section">
-                <button class="event-details-btn-3 btn" onclick="popup1('ECE', 'Mr.R.Nandha Kumar', '+919443824103', 'Saravanan', '+919629829939', '.event-details-btn-3')">
+                <button type="button" class="event-details-btn-3 btn" onclick="popup1('ECE', 'Mr.R.Nandha Kumar', '+919443824103', 'Saravanan', '+919629829939', '.event-details-btn-3')">
                     More Info
                 </button>
             </div>
@@ -382,7 +382,7 @@
             </div>
             
             <div class="bottom-section">
-                <button class="event-details-btn-4 btn" onclick="popup1('EEE', 'Mr.K.Ramesh Kumar', '+919789671060', 'Soma Sundharam', '+919159005603', '.event-details-btn-4')">
+                <button type="button" class="event-details-btn-4 btn" onclick="popup1('EEE', 'Mr.K.Ramesh Kumar', '+919789671060', 'Soma Sundharam', '+919159005603', '.event-details-btn-4')">
                     More Info
                 </button>
             </div>
@@ -416,7 +416,7 @@
             </div>
             
             <div class="bottom-section">
-                <button class="event-details-btn-5 btn" onclick="popup1('Mech', 'Dr.M.Sathiyaraju', '+919894931414', 'Godwin Prabhu', '+918940245725', '.event-details-btn-5')">
+                <button type="button" class="event-details-btn-5 btn" onclick="popup1('Mech', 'Dr.M.Sathiyaraju', '+919894931414', 'Godwin Prabhu', '+918940245725', '.event-details-btn-5')">
                     More Info
                 </button>
             </div>
@@ -444,7 +444,7 @@
             </div>
 
             <div class="bottom-section">
-                <button class="event-details-btn-6 btn" onclick="popup1('MBA', 'Ms.K.Girivasuki', '+916366676166', 'Manivannan M', 'Manivannan M', '.event-details-btn-6')">
+                <button type="button" class="event-details-btn-6 btn" onclick="popup1('MBA', 'Ms.K.Girivasuki', '+916366676166', 'Manivannan M', 'Manivannan M', '.event-details-btn-6')">
                     More Info
                 </button>
             </div>
@@ -534,9 +534,9 @@
         // waIcon1.setAttribute("target", "_blank");
         // waIcon2.setAttribute("target", "_blank");
 
-        viewBtn.onclick = ()=>{
-          popup.classList.toggle("show");
-        }
+    
+        popup.classList.toggle("show");
+        
         close.onclick = ()=>{
           viewBtn.click();
         }
