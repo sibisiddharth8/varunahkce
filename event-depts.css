@@ -1,0 +1,244 @@
+:root {
+    /* colors */
+    --light: #f8f9fa;
+    --light-2: #909090;
+    --light-3: #ebebeb;
+    --white: #ffffff;
+    --dark: #0b0e10;
+    --black: rgb(0, 0, 0);
+    --gold: rgb(203, 142, 36);
+    --grey: #424242;
+    --red: rgb(220, 37, 37);
+    /* breakpoints */
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+  
+    /* fonts */
+    --font-family-sans-serif: "Fira Sans", sans-serif;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: var(--dark);
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+}
+
+/************************ Header CSS ************************/
+#header{
+    padding: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header h1{
+    font-size: 4rem;
+}
+
+.breadcrumb-item a{
+    color: var(--gold);
+}
+
+/************************ Department cards CSS ************************/
+.departments-cards-grid{
+    color: var(--black);
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(auto-fit, minmax(320px, auto));
+    margin: auto 20px;
+    gap: 2rem;
+    padding: 0 3rem;
+}
+.dept-card{
+    /* background-color: var(--white); */
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid var(--gold);
+}
+.content-holder{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.content-holder hr{
+    color: var(--light);
+}
+.Dept-name{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+    color: var(--gold);
+}
+.technical-events-content{
+    height: 150px;
+}
+.Technical-events-title, .Non-Technical-events-title{
+    font-weight: bold;
+    color: var(--gold);
+    /* margin-top: 1.5rem; */
+    padding: 0.5rem 0;
+}
+.technical-events li,.non-technical-events li{
+    padding: 2px;
+    color: var(--light-2);
+}
+.departments-cards-grid hr{
+    margin: 0 auto 10px auto;
+}
+.overall-dept-staff-coordinator,.overall-dept-student-coordinator{
+    display: flex;
+    align-items: center;
+}
+.overall-dept-staff-coordinator{
+    margin-bottom: 10px;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin-bottom: 0px;
+}
+.icons a{
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+.icons a{
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+.icons a i{
+    transition: transform 0.3s ease-in-out;
+}
+.icons a:nth-child(1){
+    color: #1877F2;
+    border-color: #b7d4fb;
+}
+.icons a:nth-child(1):hover{
+    background: #1877F2;
+}
+.icons a:nth-child(2){
+    color: #25D366;
+    border-color: #25D366;
+}
+.icons a:nth-child(2):hover{
+    background: #25D366;
+}
+.icons a:nth-child(3){
+    color: #e1306c;
+    border-color: #f5bccf;
+}
+.icons a:nth-child(3):hover{
+    background: #e1306c;
+}
+.icons a:hover{
+    color: #fff;
+    border-color: transparent;
+}
+.icons a:hover i{
+    transform: scale(1.2);
+}
+
+.bottom-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.bottom-section button{ 
+    background: var(--gold);
+    border-radius: 2px;
+}
+.bottom-section button a{
+    color: var(--dark);
+}
+.bottom-section button:hover{
+    background: transparent;
+    border: 1px solid var(--gold);
+    border-radius: 2px;
+    color: var(--light);
+}
+
+
+
+                             /* Mediaquery */
+/********************* Extra-Large Devices Only *********************/
+@media (min-width: 1200px) {
+
+}
+
+/********************* Large Devices Only *********************/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********************* Medium Devices Only *********************/
+@media (min-width: 768px) and (max-width: 991px) {
+    #header{
+        padding: 2rem;
+    }
+    .departments-cards-grid {
+        padding: 0 !important;
+    }
+}
+
+/********************* Small Devices Only *********************/
+@media (min-width: 576px) and (max-width: 767px) {
+    #header{
+        padding: 2rem;
+    }
+    .departments-cards-grid {
+        padding: 0 !important;
+    }
+}
+
+/********************* Extra-small Devices Only *********************/
+@media (max-width: 575px) {
+    #header{
+        padding: 2rem;
+    }
+    
+}
+
+/********************* Mobile Devices Only *********************/
+@media (max-width: 480px){
+    .departments-cards-grid {
+        padding: 0;
+        grid-template-columns: 1fr;
+       
+    }
+    .event{
+        font-size: 4rem !important;
+        text-align: center;
+    }
+}    
