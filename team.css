@@ -62,7 +62,7 @@ body {
 }
 
 #Team .row{
-    margin-top: 0px !important;
+    margin-top: 3rem !important;
 }
 
 .sub-heading{
@@ -70,7 +70,7 @@ body {
     color: var(--gold);
     font-family: "Poppins", sans-serif;
     position: relative;
-    margin-top: 3% !important;
+    margin: 1% 0 3rem 0 !important;
 }
 
 .sub-heading::before{
@@ -81,7 +81,7 @@ body {
 #contentContainer{
     display: grid;
     row-gap: 4.5rem;
-    padding: 7%;
+    padding: 0;
 }
 
 #Team{
@@ -185,7 +185,9 @@ body {
 
 /********************* Medium Devices Only *********************/
 @media (min-width: 768px) and (max-width: 991px) {
-
+    #contentContainer .row{
+        padding: 10% 0 0 0;
+    }
 }
 
 /********************* Small Devices Only *********************/
@@ -209,7 +211,7 @@ body {
         text-wrap: nowrap;
     }
     #coordinators .row{
-        margin-top: 4rem !important;
+        margin-top: 6rem !important;
     }
     .profile-card{
         position: relative;
