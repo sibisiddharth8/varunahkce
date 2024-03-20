@@ -259,7 +259,7 @@ body {
   position: relative;
 }
 
-.departments .sec-title::before {
+.sec-title::before {
   content: 'Associations';
   position: absolute;
   bottom: -8rem;
@@ -270,19 +270,19 @@ body {
   font-size: 300%;
   color: var(--grey);
 }
+
 .Dept-socialmedia{
   display: flex;
   justify-content: center;
   margin-top: 5px;
   color: var(--light-2);
 }
+
 .Dept-socialmedia a{
   padding: 0px 10px;
 }
 
-
-
-/* Footer */
+/************************ Footer CSS ************************/
 footer{
   margin-top: 10%;
   color: var(--light-2) !important;

@@ -380,6 +380,40 @@
                     <li>Think and Act</li>
                 </ul>
             </div>
+
+            <!-- Modal Start-->
+    <div class="popup">
+        <header>
+            <span class="pop-dept-name">AI & DS</span>
+            <div class="close"><i class="fas fa-times"></i></div>
+        </header>
+        <div class="content">
+            
+            <div class="part1">
+                <p>Co-Ordinators</p>
+                <div class="field">
+                    <ul>
+                        <li class="co-name-1">Mr. Praveenkumar</li>
+                        <li class="co-num-1">+91 00000 00000</li>
+                    </ul>
+                    <ul class="icons">
+                        <a class="call-icon-1" href=""><i class="fas fa-phone"></i></a>
+                        <a class="wa-icon-1" href=""><i class="fab fa-whatsapp"></i></a>
+                    </ul>
+                </div>
+                <div class="field">
+                    <ul>
+                        <li class="co-name-2">Mr. Praveenkumar</li>
+                        <li class="co-num-2">+91 00000 00000</li>
+                    </ul>
+                    <ul class="icons">
+                        <a class="call-icon-2" href=""><i class="fas fa-phone"></i></a>
+                        <a class="wa-icon-2" href=""><i class="fab fa-whatsapp"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
             
             <div class="bottom-section">
                 <button class="event-details-btn-4 btn" onclick="popup1('EEE', 'Mr.K.Ramesh Kumar', '+919789671060', 'Soma Sundharam', '+919159005603', '.event-details-btn-4')">
@@ -460,44 +494,6 @@
     <!-- Load Content from Dynamic folder-->
   </footer>
  <!-- Footer End -->
-  
-
-
-
-  <!-- Modal Start-->
-    <div class="popup">
-        <header>
-            <span class="pop-dept-name">AI & DS</span>
-            <div class="close"><i class="fas fa-times"></i></div>
-        </header>
-        <div class="content">
-            
-            <div class="part1">
-                <p>Co-Ordinators</p>
-                <div class="field">
-                    <ul>
-                        <li class="co-name-1">Mr. Praveenkumar</li>
-                        <li class="co-num-1">+91 00000 00000</li>
-                    </ul>
-                    <ul class="icons">
-                        <a class="call-icon-1" href=""><i class="fas fa-phone"></i></a>
-                        <a class="wa-icon-1" href=""><i class="fab fa-whatsapp"></i></a>
-                    </ul>
-                </div>
-                <div class="field">
-                    <ul>
-                        <li class="co-name-2">Mr. Praveenkumar</li>
-                        <li class="co-num-2">+91 00000 00000</li>
-                    </ul>
-                    <ul class="icons">
-                        <a class="call-icon-2" href=""><i class="fas fa-phone"></i></a>
-                        <a class="wa-icon-2" href=""><i class="fab fa-whatsapp"></i></a>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
 
   <script>
 
@@ -534,9 +530,7 @@
         // waIcon1.setAttribute("target", "_blank");
         // waIcon2.setAttribute("target", "_blank");
 
-        viewBtn.onclick = ()=>{
-          popup.classList.toggle("show");
-        }
+        popup.classList.toggle("show");
         close.onclick = ()=>{
           viewBtn.click();
         }
