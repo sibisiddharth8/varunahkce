@@ -106,6 +106,10 @@ body {
 .technical-events li,.non-technical-events li{
     padding: 2px;
     color: var(--light-2);
+    margin: 0.3rem 0;
+}
+.technical-events li i,.non-technical-events li i{
+    margin-left: 0.6rem;
 }
 .departments-cards-grid hr{
     margin: 0 auto 10px auto;
