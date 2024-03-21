@@ -296,7 +296,6 @@ footer a{
   flex-direction: column;
   align-items: start;
   gap: 0.8rem;
-  text-align: start;
 }
 .contacts a:hover{
   color: var(--gold) !important;
@@ -427,5 +426,9 @@ footer a{
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+  }
+  .contacts{
+    align-items: center;
+
   }
 }
