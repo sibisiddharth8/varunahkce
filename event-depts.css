@@ -121,6 +121,31 @@ body {
 .overall-dept-staff-coordinator{
     margin-bottom: 10px;
 }
+.technical-events, .non-technical-events{
+    height: 105px;
+    overflow: auto;
+}
+.technical-events::-webkit-scrollbar,
+.non-technical-events::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+}
+
+.technical-events::-webkit-scrollbar-track,
+.non-technical-events::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the scrollbar track */
+}
+
+.technical-events::-webkit-scrollbar-thumb,
+.non-technical-events::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 5px; /* Rounded corners of the scrollbar thumb */
+}
+
+.technical-events::-webkit-scrollbar-thumb:hover,
+.non-technical-events::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scrollbar thumb on hover */
+}
+
 .icons{
     display: flex;
     justify-content: space-evenly;
