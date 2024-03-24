@@ -9,8 +9,8 @@ $(document).ready(function() {
             year:'AP',
             department: "AI&DS",
             Role: "Overall staff Co-ordinator",
-            phone: "",
-            whatsapp: ""
+            phone: "8838031163",
+            whatsapp: "8838031163"
         },
         {
             imgSrc: male,
@@ -18,8 +18,17 @@ $(document).ready(function() {
             year:'3rd Year',
             department: "AI&DS",
             Role: "Overall student Co-ordinator",
-            phone: "",
-            whatsapp: ""
+            phone: "6383432687",
+            whatsapp: "6383432687"
+        },
+        {
+            imgSrc: male,
+            name: "Rishikanth",
+            year:'3rd Year',
+            department: "CSE",
+            Role: "Overall student Co-ordinator",
+            phone: "8438633936",
+            whatsapp: "8438633936"
         }
     ];    
 
@@ -40,7 +49,6 @@ $(document).ready(function() {
                         <div class="social-links">
                             <a href="tel:+91 ${coordinators.phone}" target="_blank"><i class="fa-solid fa-phone"></i></a>
                             <a href="https://wa.me/${coordinators.whatsapp}" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-                            <a href="#"><i class="fa-solid fa-at"></i></a>
                         </div>
                     </div>
                     </div> 
