@@ -65,14 +65,12 @@ body {
 .departments-cards-grid{
     color: var(--black);
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr; */
     grid-template-columns: repeat(auto-fit, minmax(320px, auto));
     margin: auto 20px;
     gap: 2rem;
     padding: 0 3rem;
 }
 .dept-card{
-    /* background-color: var(--white); */
     background-color: transparent;
     border-radius: 20px;
     border: 1px solid var(--gold);
@@ -96,11 +94,27 @@ body {
 }
 .technical-events-content{
     height: 150px;
+    overflow: auto;
+}
+/* Styling for the scrollbar of card*/
+.technical-events-content::-webkit-scrollbar {
+    width: 4px; 
+}
+
+.technical-events-content::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+.technical-events-content::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+.technical-events-content::-webkit-scrollbar-thumb:hover {
+    background: #555; 
 }
 .Technical-events-title, .Non-Technical-events-title{
     font-weight: bold;
     color: var(--gold);
-    /* margin-top: 1.5rem; */
     padding: 0.5rem 0;
 }
 .technical-events li,.non-technical-events li{
