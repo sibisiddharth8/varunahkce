@@ -416,10 +416,14 @@ header .close:hover{
 }
 
 .part2 >p{
-    text-align: center;
+    text-align: justify;
 }
 .part2 p{
     height: 100%;
+}
+.description-title{
+    display: flex;
+    justify-content: center;
 }
 
 
