@@ -303,7 +303,7 @@ header .close:hover{
     margin-top: 2rem;
 }
 .content .pop-description{
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     margin-left: 2rem;
     margin: 1rem 2rem;
     color: #878787;
@@ -415,6 +415,12 @@ header .close:hover{
     padding: 0;
 }
 
+.part2 >p{
+    text-align: center;
+}
+.part2 p{
+    height: 100%;
+}
 
 
 
